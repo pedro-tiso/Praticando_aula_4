@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas com colspan e rowspan</title>
+    <link rel="icon" href="../favicons/tabela.jpg" >
+    <style>
+        table,
+        td {
+            border: 1px solid red;
+        }
+
+        td {
+            padding: 30px 60px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Tabelas com colspan e rowspan</h1>
+    <nav>
+        <a href="../index.html">Início</a> |
+        <a href="tabelas.html">Tabelas com dados reais</a> |
+        <a href="tabelas-mescladas.html">Colspan e rowspan</a> |
+        <a href="receita.html">Receita com listas</a>
+    </nav>
+
+    <hr>
+</header>
+<main>
+    <section>
+        <h2>Tabela com colspan</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="3">Colspan</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <br>
+
+    <section>
+        <h2>Tabela com rowspan</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>-</td>
+                    <td rowspan="3">Rowspan</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <br>
+
+    <section>
+        <h2>Tabela com colspan e rowspan</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2">Colspan</td>
+                    <td>-</td>
+                    <td rowspan="3">Rowspan</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td colspan="2">Colspan</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <br>
+    <a href="../index.html">Voltar ao menu principal</a>
+</main>
+<footer>
+    <p>&copy; 2026 Pedro Tiso</p>
+</footer>
+</body>
+</html>
